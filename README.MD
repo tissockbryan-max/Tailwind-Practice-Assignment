@@ -3,6 +3,8 @@
 A responsive and accessible user signup form built with HTML, TailwindCSS, and Vanilla JavaScript.
 My first project using TailwindCSS.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1d1c58a3-63ed-46a3-b76f-49e463ddcb75/deploy-status)](https://app.netlify.com/projects/signtailwind/deploys)
+
 ![Signup Form Screenshot](Tailwind Assignment/assets/screenshot.png)
 
 ## Features
