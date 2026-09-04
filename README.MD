@@ -3,8 +3,6 @@
 A responsive and accessible user signup form built with HTML, TailwindCSS, and Vanilla JavaScript.
 My first project using TailwindCSS.
 
-[![Live Demo]()]
-
 ![Signup Form Screenshot](Tailwind Assignment/assets/screenshot.png)
 
 ## Features
