@@ -3,9 +3,140 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+  <body
+    class="bg-gradient-to-tr from-indigo-500 to-sky-300 font-sans flex items-center justify-center min-h-screen"
+  >
+    <div class="bg-white rounded-3xl shadow-2xl px-12 py-5 sm:w-70">
+      <form action="#" method="post" class="">
+        <div class="flex flex-col gap-y-3 justify-center">
+          <h2 class="text-blue-400 font-bold text-4xl text-center mb-5">
+            Signup
+          </h2>
+          <div>
+            <i class="fa-solid fa-user text-blue-400"></i>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Username"
+              class="text-md focus:outline-none bg-transparent"
+              required
+            />
+          </div>
+          <hr />
+          <div>
+            <i class="fa-solid fa-envelope text-blue-400"></i>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              class="text-md focus:outline-none bg-transparent"
+              required
+            />
+          </div>
+          <hr />
+          <div>
+            <i class="fa-solid fa-lock text-blue-400"></i>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password"
+              class="text-md focus:outline-none bg-transparent"
+              required
+            />
+          </div>
+          <hr />
+          <div>
+            <i class="fa-solid fa-lock text-blue-400"></i>
+            <input
+              type="password"
+              id="confirm-password"
+              name="confirm-password"
+              placeholder="Confirm Password"
+              class="text-md focus:outline-none bg-transparent"
+              required
+            />
+          </div>
+          <hr />
+          <div class="flex flex-row text-sm">
+            <input
+              class="mr-4"
+              type="checkbox"
+              name="agree-to-terms"
+              id="agree-to-terms"
+              required
+            />
+            <label for="agree-to-terms"
+              >I accept the
+              <span class="text-blue-400 text-sm">Terms of Use</span> &
+              <span class="text-blue-400">Privacy Policy</span></label
+            >
+          </div>
+          <div class="flex flex-row text-sm">
+            <input
+              class="mr-4"
+              type="checkbox"
+              name="remember-me"
+              id="remember-me"
+            />
+            <a href="#">Remember me</a>
+          </div>
+          <div>
+            <p class="text-sm">
+              Already have an account?
+              <a href="" class="text-blue-400 hover:underline">Sign In</a>
+            </p>
+          </div>
+          <hr />
+          <button
+            class="bg-gradient-to-tl from-sky-500 to-indigo-500 text-lg text-white font-semibold rounded-xl p-2 text-semibold w-full hover:from-indigo-500 hover:to-sky-500 transition-colors duration-500ms ease-linear"
+            type="submit"
+            onclick="submitBtn()"
+          >
+            Sign Up
+          </button>
+          <div class="relative flex items-center justify-center my-6">
+            <div class="absolute inset-0 flex items-center" aria-hidden="true">
+              <div class="w-full border-t border-gray-300"></div>
+            </div>
+            <div
+              class="relative px-4 bg-white text-sm font-medium text-gray-400 lowercase"
+            >
+              or
+            </div>
+          </div>
+          <div
+            class="flex flex-row justify-evenly items-center bg-gray-200 rounded-xl p-4"
+            onclick="signWithGoogle()"
+          >
+            <img
+              class="w-6 h-6"
+              src="./assets/google-G-logo-2025.png"
+              alt="google-logo"
+            />
+            <p class="font-semibold mr-10">Continue with google</p>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script>
+      function submitBtn() {
+        alert("Form submitted successfully!");
+      }
+      function signWithGoogle() {
+        alert("Signing up with Google...");
+      }
+    </script>
   </body>
 </html>
