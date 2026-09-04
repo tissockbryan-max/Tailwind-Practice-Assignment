@@ -3,9 +3,9 @@
 A responsive and accessible user signup form built with HTML, TailwindCSS, and Vanilla JavaScript.
 My first project using TailwindCSS.
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://yourname.github.io/signup-form)
+[![Live Demo]()]
 
-![Signup Form Screenshot](./assets/screenshot.png)
+![Signup Form Screenshot](Tailwind Assignment/assets/screenshot.png)
 
 ## Features
 
@@ -26,7 +26,7 @@ My first project using TailwindCSS.
 1. Clone the repo
 
 ```bash
-   git clone https://github.com/yourusername/signup-form.git
+   git clone https://github.com/tissockbryan-max/Tailwind-Practice-Assignment.git
 ```
 
 2. Open `index.html` in your browser — no build step needed.
@@ -41,4 +41,4 @@ MIT — free to use and modify.
 
 ---
 
-Made by [Ranjoy-Bryan](https://github.com/yourusername)
+Made by [Ranjoy-Bryan](https://github.com/tissockbryan-max)
